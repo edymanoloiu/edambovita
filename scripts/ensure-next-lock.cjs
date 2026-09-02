@@ -59,8 +59,6 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 		}
 	}
 
-	// Free ~250MB git pack before Vercel "Deploying outputs" (ENOSPC).
-	rmIfExists(path.join(root, ".git"), ".git/");
 }
 
 fs.mkdirSync(cacheDir, { recursive: true });
