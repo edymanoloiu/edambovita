@@ -6,15 +6,22 @@ import HeadMeta from "../components/elements/HeadMeta";
 import FooterOne from "../components/footer/FooterOne";
 import HeaderOne from "../components/header/HeaderOne";
 import SoledadTimesHome from "../components/soledad/SoledadTimesHome";
-
-const LOCAL_CATE = 'Azi in Targoviste';
+import publication from "../data/publication";
+import site from "../data/soledadSite";
 
 const HomeOne = ({ allPosts, localPosts, culturePosts, sitemaps }) => {
 	const nationalPosts = sitemaps?.pc ?? [];
 
 	return (
 		<>
-			<HeadMeta metaTitle="Știrile zilei în Târgoviște | Cele mai importante știri din Târgoviște. Află tot ce contează, azi, în Târgoviște." />
+			<HeadMeta
+				fullPageTitle={publication.seo.title}
+				metaDesc={publication.seo.description}
+				ogTitle={publication.seo.openGraph.title}
+				ogDescription={publication.seo.openGraph.description}
+				twitterTitle={publication.seo.twitter.title}
+				twitterDescription={publication.seo.twitter.description}
+			/>
 			<HeaderOne />
 			<SoledadTimesHome
 				localPosts={localPosts}
@@ -63,14 +70,14 @@ export async function getServerSideProps() {
 		.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 	const uniqueFromAll = dedupePostsBySlug(posts);
-	const localPosts = buildLocalPostsWithPromos(uniqueFromAll, LOCAL_CATE).slice(0, 60);
+	const localPosts = buildLocalPostsWithPromos(uniqueFromAll, site.localCate).slice(0, 60);
 	const culturePosts = uniqueFromAll
 		.filter((a) => a.cate === 'Evenimente si cultura')
 		.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 30);
 
 	const allPosts = [
 		...posts.filter((a) => a.cate === 'Evenimente si cultura').slice(0, 30),
-		...posts.filter((a) => a.cate === LOCAL_CATE).slice(0, 30),
+		...posts.filter((a) => a.cate === site.localCate).slice(0, 30),
 		...posts.filter((a) => a.cate === 'Stiri nationale si internationale').slice(0, 30),
 		...posts.filter((a) => a.isPromo).slice(0, 30),
 	];
