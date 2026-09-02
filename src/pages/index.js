@@ -82,18 +82,16 @@ export async function getServerSideProps() {
 		...posts.filter((a) => a.isPromo).slice(0, 30),
 	];
 
-	const rssParser = new Parser({ timeout: RSS_TIMEOUT_MS });
-	const feedUrls = [
-		'https://obliqdesign.ro/rss.xml',
-		'https://meritasamergi.ro/rss.xml',
-		'https://ghidullegal.ro/rss.xml',
-		'https://sfaturidesanatate.ro/rss.xml',
-		'https://ghidulgospodarului.ro/rss.xml',
-		'https://azicemancam.ro/rss.xml',
-		'https://cautimasina.ro/rss.xml',
-		'https://painesicirc.ro/rss.xml',
-	];
-	const weboSitemaps = await Promise.allSettled(feedUrls.map((url) => rssParser.parseURL(url)));
+	const weboSitemaps = await Promise.allSettled([
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://obliqdesign.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://meritasamergi.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://ghidullegal.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://sfaturidesanatate.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://ghidulgospodarului.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://azicemancam.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://cautimasina.ro/rss.xml'),
+		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://painesicirc.ro/rss.xml'),
+	]);
 
 	return {
 		props: {
