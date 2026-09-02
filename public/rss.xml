@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Azi în Târgoviște | Cele mai importante știri din Târgoviște. Află tot ce contează, azi, în Târgoviște]]></title>
+        <description><![CDATA[Azi în Târgoviște este platforma locală de știri care îți aduce zilnic cele mai importante informații despre tot ce se întâmplă în Târgoviște și județul Dâmbovița. Aici găsești actualizări în timp real despre evenimente locale, administrație, trafic, cultură, educație, sport, vreme și comunitate — toate prezentate clar, echilibrat și accesibil. Site-ul prioritează informațiile verificate, explicate pe înțelesul tuturor și optimizate pentru căutare vocală (AEO), astfel încât să poți afla rapid răspunsuri la întrebările tale despre oraș. Azi în Târgoviște este ghidul tău digital pentru un oraș în mișcare, conectând locuitorii la noutățile cu adevărat relevante pentru ei.]]></description>
+        <link>https://edambovita.ro</link>
+        <image>
+            <url>https://edambovita.ro/images/cropped_image.png</url>
+            <title>Azi în Târgoviște | Cele mai importante știri din Târgoviște. Află tot ce contează, azi, în Târgoviște</title>
+            <link>https://edambovita.ro</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 26 Aug 2026 18:48:40 GMT</lastBuildDate>
+        <atom:link href="https://edambovita.ro/rss.xml" rel="self" type="application/rss+xml"/>
+        <language><![CDATA[ro]]></language>
+        <item>
+            <title><![CDATA[Incendiu de vegetație la Fusea: aproximativ 7 hectare, o autospecială de la Titu]]></title>
+            <description><![CDATA[Detașamentul Titu a acționat cu o autospecială de stingere cu apă și spumă.]]></description>
+            <link>https://edambovita.ro/post/incendiu-vegetatie-fusea-7-hectare-titu</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/incendiu-vegetatie-fusea-7-hectare-titu</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Fusea]]></category>
+            <category><![CDATA[incendiu]]></category>
+            <category><![CDATA[vegetație]]></category>
+            <pubDate>Wed, 19 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/incendiu-vegetatie-fusea-7-hectare-titu.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Incendiu de vegetație la Glodeni: circa 1,5 hectare, două autospeciale de la Pucioasa]]></title>
+            <description><![CDATA[Detașamentul Pucioasa a intervenit cu două autospeciale de stingere cu apă și spumă.]]></description>
+            <link>https://edambovita.ro/post/incendiu-vegetatie-glodeni-1-5-hectare-pucioasa</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/incendiu-vegetatie-glodeni-1-5-hectare-pucioasa</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Glodeni]]></category>
+            <category><![CDATA[incendiu]]></category>
+            <category><![CDATA[vegetație]]></category>
+            <pubDate>Wed, 19 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/incendiu-vegetatie-glodeni-1-5-hectare-pucioasa.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Incendiu de vegetație uscată în Târgoviște: aproximativ 2 hectare, șase autospeciale]]></title>
+            <description><![CDATA[ISU Dâmbovița: foc pe circa 2 ha în municipiu. Șase autospeciale de stingere cu apă și spumă.]]></description>
+            <link>https://edambovita.ro/post/incendiu-vegetatie-targoviste-2-hectare-sase-autospeciale</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/incendiu-vegetatie-targoviste-2-hectare-sase-autospeciale</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Târgoviște]]></category>
+            <category><![CDATA[incendiu]]></category>
+            <category><![CDATA[vegetație]]></category>
+            <pubDate>Wed, 19 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/incendiu-vegetatie-targoviste-2-hectare-sase-autospeciale.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Incendiu de vegetație uscată în Titu: aproximativ 1.000 mp, o autospecială]]></title>
+            <description><![CDATA[Detașamentul Titu a intervenit cu o autospecială de stingere cu apă și spumă.]]></description>
+            <link>https://edambovita.ro/post/incendiu-vegetatie-titu-1000-mp</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/incendiu-vegetatie-titu-1000-mp</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Titu]]></category>
+            <category><![CDATA[incendiu]]></category>
+            <category><![CDATA[vegetație]]></category>
+            <pubDate>Wed, 19 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/incendiu-vegetatie-titu-1000-mp.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Incendiu la Voia: circa 8 hectare de vegetație, cătină și aronia; două autospeciale de la Găești]]></title>
+            <description><![CDATA[Detașamentul Găești a intervenit cu două autospeciale. Plantația de cătină și aronia, afectată.]]></description>
+            <link>https://edambovita.ro/post/incendiu-vegetatie-voia-8-hectare-catina-aronia</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/incendiu-vegetatie-voia-8-hectare-catina-aronia</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Voia]]></category>
+            <category><![CDATA[incendiu]]></category>
+            <category><![CDATA[vegetație]]></category>
+            <pubDate>Wed, 19 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/incendiu-vegetatie-voia-8-hectare-catina-aronia.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Toyota Aygo X Hybrid pe stoc: ghid pentru o mașină de oraș cu 4 locuri]]></title>
+            <description><![CDATA[Toyota Aygo X Hybrid pe stoc are 4 locuri, sistem hibrid de 116 CP și portbagaj de 231 l; compară echiparea, prețul și livrarea.]]></description>
+            <link>https://edambovita.ro/post/toyota-aygo-x-hybrid-pe-stoc</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/toyota-aygo-x-hybrid-pe-stoc</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Auto]]></category>
+            <category><![CDATA[Toyota Aygo X]]></category>
+            <category><![CDATA[Advertorial]]></category>
+            <pubDate>Tue, 18 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[AJOFM Dâmbovița: anunț transfer la cerere pentru consilier superior la Moreni, ID 620006]]></title>
+            <description><![CDATA[Publicat pe 18 august 2026. Post la Punctul de lucru Moreni, grad profesional superior.]]></description>
+            <link>https://edambovita.ro/post/ajofm-dambovita-transfer-consilier-moreni-620006</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/ajofm-dambovita-transfer-consilier-moreni-620006</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[AJOFM]]></category>
+            <category><![CDATA[Moreni]]></category>
+            <pubDate>Mon, 17 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/ajofm-dambovita-transfer-consilier-moreni-620006.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Corectură editorială: retragem materialul despre Florent Manaudou]]></title>
+            <description><![CDATA[Materialul a fost retras deoarece nu avea un impact concret pentru Târgoviște sau județul Dâmbovița.]]></description>
+            <link>https://edambovita.ro/post/2026-08-15-t03-campion-olimpic-edambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/2026-08-15-t03-campion-olimpic-edambovita</guid>
+            <category><![CDATA[Știri]]></category>
+            <category><![CDATA[Corectură editorială]]></category>
+            <pubDate>Fri, 14 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/2026-08-15-t03-campion-olimpic-edambovita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Notă editorială: materialul generic cu urări de Sfânta Maria a fost retras]]></title>
+            <description><![CDATA[Materialul a fost retras deoarece era un text național generic, fără informații ori servicii locale pentru Târgoviște.]]></description>
+            <link>https://edambovita.ro/post/2026-08-15-t03-la-multi-ani-maria-edambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/2026-08-15-t03-la-multi-ani-maria-edambovita</guid>
+            <category><![CDATA[Știri]]></category>
+            <pubDate>Fri, 14 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/2026-08-15-t03-la-multi-ani-maria-edambovita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Corectură editorială: retragem materialul despre cererea de plată din PNRR]]></title>
+            <description><![CDATA[Materialul a fost retras deoarece nu explica un impact concret pentru Târgoviște sau județul Dâmbovița.]]></description>
+            <link>https://edambovita.ro/post/2026-08-14-t03-cerere-edambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/2026-08-14-t03-cerere-edambovita</guid>
+            <category><![CDATA[Știri]]></category>
+            <category><![CDATA[Corectură editorială]]></category>
+            <pubDate>Thu, 13 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/2026-08-14-t03-cerere-edambovita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Corectură editorială: retragem materialul despre Gabriela Ruse]]></title>
+            <description><![CDATA[Materialul a fost retras deoarece nu avea un impact concret pentru Târgoviște sau județul Dâmbovița.]]></description>
+            <link>https://edambovita.ro/post/2026-08-14-t03-elena-gabriela-ruse-edambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/2026-08-14-t03-elena-gabriela-ruse-edambovita</guid>
+            <category><![CDATA[Știri]]></category>
+            <category><![CDATA[Corectură editorială]]></category>
+            <pubDate>Thu, 13 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/2026-08-14-t03-elena-gabriela-ruse-edambovita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Corectură editorială: retragem materialul despre FC Twente]]></title>
+            <description><![CDATA[Materialul a fost retras deoarece nu avea un impact concret pentru Târgoviște sau județul Dâmbovița.]]></description>
+            <link>https://edambovita.ro/post/2026-08-14-t03-fc-twente-edambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/2026-08-14-t03-fc-twente-edambovita</guid>
+            <category><![CDATA[Știri]]></category>
+            <category><![CDATA[Corectură editorială]]></category>
+            <pubDate>Thu, 13 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/2026-08-14-t03-fc-twente-edambovita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Accident pe DN 72 A la Dragomirești: trei vehicule, o șoferiță rănită]]></title>
+            <description><![CDATA[Pe 6 august 2026, pe DN 72 A în Dragomirești, o autoutilitară a lovit două autoturisme; o femeie de 59 de ani din Târgoviște a ajuns la spital. Teste alcool negative.]]></description>
+            <link>https://edambovita.ro/post/accident-dn72a-dragomiresti-trei-vehicule-soferita-ranita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/accident-dn72a-dragomiresti-trei-vehicule-soferita-ranita</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Dragomirești]]></category>
+            <category><![CDATA[accident]]></category>
+            <pubDate>Wed, 12 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/accident-dn72a-dragomiresti-trei-vehicule-soferita-ranita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Accident la Malu cu Flori, pe DN 72 A: doi răniți duși la spital]]></title>
+            <description><![CDATA[Pe 5 august 2026, pe DN 72 A în Malu cu Flori, un autoturism a lovit altul, apoi un vehicul staționat. Șoferul de 26 de ani și un pasager de 30 de ani au ajuns la spital.]]></description>
+            <link>https://edambovita.ro/post/accident-dn72a-malu-cu-flori-doi-raniti</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/accident-dn72a-malu-cu-flori-doi-raniti</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Malu cu Flori]]></category>
+            <category><![CDATA[accident]]></category>
+            <pubDate>Wed, 12 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/accident-dn72a-malu-cu-flori-doi-raniti.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Accident la Găești, pe strada 1 Decembrie: ambii șoferi, la îngrijiri]]></title>
+            <description><![CDATA[Pe 6 august 2026, la Găești, un șofer de 22 de ani din Dragomirești a lovit un autoturism condus de un bărbat din Brașov. Ambii au primit îngrijiri; fără plângere pentru vătămare din culpă.]]></description>
+            <link>https://edambovita.ro/post/accident-gaesti-strada-1-decembrie-doi-soferi-ingrijiri</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/accident-gaesti-strada-1-decembrie-doi-soferi-ingrijiri</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Găești]]></category>
+            <category><![CDATA[accident]]></category>
+            <pubDate>Wed, 12 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/accident-gaesti-strada-1-decembrie-doi-soferi-ingrijiri.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cinci morți pe DN 61, la Grozăvești (Corbii Mari); șoferul, fără permis]]></title>
+            <description><![CDATA[Update IPJ Dâmbovița: în noaptea de 11 august, pe DN 61 lângă Grozăvești, un autoturism a lovit trei pietoni și s-a răsturnat. Cinci decese; șoferul de 20 de ani nu ar fi avut permis.]]></description>
+            <link>https://edambovita.ro/post/accident-mortal-dn61-corbii-mari-cinci-decedati</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/accident-mortal-dn61-corbii-mari-cinci-decedati</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Corbii Mari]]></category>
+            <category><![CDATA[accident mortal]]></category>
+            <pubDate>Wed, 12 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/accident-mortal-dn61-corbii-mari-cinci-decedati.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Bărbat din Șelaru, arestat preventiv pentru violență în familie]]></title>
+            <description><![CDATA[Un bărbat de 63 de ani din Șelaru, suspectat că și-ar fi agresat mama de 85 de ani, a fost reținut, apoi arestat preventiv 30 de zile la Judecătoria Găești.]]></description>
+            <link>https://edambovita.ro/post/arestat-preventiv-violenta-familie-selaru-gaesti</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/arestat-preventiv-violenta-familie-selaru-gaesti</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Șelaru]]></category>
+            <category><![CDATA[violență în familie]]></category>
+            <pubDate>Wed, 12 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/arestat-preventiv-violenta-familie-selaru-gaesti.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Campanie anti-bullying în grădinițe din Dâmbovița: 195 de elevi informați]]></title>
+            <description><![CDATA[Între 27 iulie și 4 august 2026, Biroul Siguranță Școlară al IPJ Dâmbovița a desfășurat activități preventive în mai multe unități din județ, inclusiv la Găești, Pucioasa, Moreni și Târgoviște.]]></description>
+            <link>https://edambovita.ro/post/campanie-bullying-siguranta-scolara-dambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/campanie-bullying-siguranta-scolara-dambovita</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[bullying]]></category>
+            <category><![CDATA[Siguranță Școlară]]></category>
+            <pubDate>Wed, 12 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/campanie-bullying-siguranta-scolara-dambovita.webp" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Volvo EX90 pe stoc: 7 locuri, tracțiune și încărcare pentru un SUV electric mare]]></title>
+            <description><![CDATA[Pentru Volvo EX90 pe stoc, compară Single Motor și Twin Motor după autonomie, încărcare, 7 locuri, remorcare, preț și data predării.]]></description>
+            <link>https://edambovita.ro/post/volvo-ex90-pe-stoc-7-locuri-tractiune</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/volvo-ex90-pe-stoc-7-locuri-tractiune</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Auto]]></category>
+            <category><![CDATA[Mașini electrice]]></category>
+            <pubDate>Sun, 09 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Bancul zilei în Târgoviște]]></title>
+            <description><![CDATA[Bancul zilei din Târgoviște aduce un strop de umor din viața de zi cu zi, cu glume legate de realitatea locală. Râsul servește ca o modalitate de a diminua stresul și de a întări legăturile dintre comunitatea orașului.]]></description>
+            <link>https://edambovita.ro/post/bancul-zilei-in-targoviste</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/bancul-zilei-in-targoviste</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Bancul zilei]]></category>
+            <pubDate>Sat, 08 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://pixabay.com/get/g2b145eea94fed99935095684e0400a2d6982a4d19f2f5b276d23fe41f894cd3dfd6e71bff14291d594aac92c5c86dca51313b73fea4edf9218fa2b128c12c92f_1280.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Calendar ortodox Târgoviște – 9 august]]></title>
+            <description><![CDATA[Pe 9 august 2026, în calendarul ortodox se comemorează Tăierea capului Sfântului Ioan Botezătorul. Credincioșii din Târgoviște țin post cu dezlegare la pește, iar persoanele cu numele Ioan, Ioana sau Ion își sărbătoresc onomastica.]]></description>
+            <link>https://edambovita.ro/post/calendar-ortodox-targoviste-9-august</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/calendar-ortodox-targoviste-9-august</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Calendar ortodox]]></category>
+            <pubDate>Sat, 08 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://pixabay.com/get/gcbbc2077942ff088fb2238e62add8f15340e8abf72f60579ea75fe0917f2493d918b3ac1a369f2bc02edda2e5c1124031bcdf0383b003aa72cf5944cb695ef90_1280.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Corectură editorială: retragem rezumatul local despre Târgoviște din 9 august 2026]]></title>
+            <description><![CDATA[Retragem afirmațiile neverificate publicate inițial în acest rezumat și explicăm motivele corecturii.]]></description>
+            <link>https://edambovita.ro/post/ce-s-a-intamplat-ieri-9-august-2026-in-targoviste</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/ce-s-a-intamplat-ieri-9-august-2026-in-targoviste</guid>
+            <category><![CDATA[Știri locale]]></category>
+            <category><![CDATA[Corectură editorială]]></category>
+            <pubDate>Sat, 08 Aug 2026 21:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ce spun astrele azi? Horoscopul zilei pentru toate zodiile – 09 august 2026]]></title>
+            <description><![CDATA[Horoscop zilnic – 09 august 2026 Berbec General: Astăzi simți un impuls de inițiativă care te ajută să începi sarcini scurte și concrete. Prioritizează două obiective clare și folosește intervale de 25–40 de minute pentru a păstra ritmul. Evită asumarea mai multor proiecte care cer coordonare extinsă. Dragoste: Comunicarea directă funcționează mai bine decât așteptările.]]></description>
+            <link>https://edambovita.ro/post/ce-spun-astrele-azi-horoscopul-zilei-pentru-toate-zodiile-09-august-2026</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/ce-spun-astrele-azi-horoscopul-zilei-pentru-toate-zodiile-09-august-2026</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Horoscop]]></category>
+            <pubDate>Sat, 08 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1614089254151-676cc373b01e" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cele mai importante evenimente culturale din Târgoviște - 9 august 2026]]></title>
+            <description><![CDATA[Cele mai importante evenimente culturale din Târgoviște de pe 9 august 2026: incidente, politică locală, economie și noutăți din comunitate — toate într-un singur rezumat concis.]]></description>
+            <link>https://edambovita.ro/post/cele-mai-importante-evenimente-culturale-din-targoviste-9-august-2026</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/cele-mai-importante-evenimente-culturale-din-targoviste-9-august-2026</guid>
+            <category><![CDATA[Evenimente si cultura]]></category>
+            <pubDate>Sat, 08 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://upload.wikimedia.org/wikipedia/commons/5/5b/Targoviste_city_hall_2.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Curs valutar Târgoviște – 2026-08-09]]></title>
+            <description><![CDATA[Banca Națională a României publică zilnic cursul valutar oficial, influențând costurile ratelor la credite în valută, prețurile produselor importate și tranzacțiile comerciale din Târgoviște. Valutele cele mai urmărite rămân euro, dolarul american, lira sterlină și francul elvețian.]]></description>
+            <link>https://edambovita.ro/post/curs-valutar-targoviste-2026-08-09</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/curs-valutar-targoviste-2026-08-09</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Curs valutar (BNR)]]></category>
+            <pubDate>Sat, 08 Aug 2026 21:00:00 GMT</pubDate>
+            <enclosure url="https://images.unsplash.com/photo-1734942718935-4f08020d70c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5NjQxNDl8MHwxfHNlYXJjaHwxfHxjdXJyZW5jeSUyMGV4Y2hhbmdlJTIwcmF0ZXMlMjBiYW5rbm90ZXMlMjBjb2lucyUyMGZpbmFuY2lhbCUyMG1hcmtldCUyMFJvbWFuaWF8ZW58MHwwfHx8MTc4NjI0ODQxN3ww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" length="0" type="image/jpeg"/>
+        </item>
+    </channel>
+</rss>

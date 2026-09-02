@@ -1,0 +1,180 @@
+/* Soledad Times Magazine – homepage blocks (aziinalba.ro) */
+
+.soledad-breaking-ticker {
+  display: none !important;
+}
+
+body.bn2-theme .page-header {
+  border-bottom: 1px solid var(--soledad-border);
+}
+
+/* Quick headline row under hero */
+.tm-headline-strip {
+  padding: 28px 0 36px;
+  border-bottom: 1px solid var(--soledad-border);
+  background: var(--soledad-bg);
+}
+
+.tm-headline-strip__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.tm-headline-strip__item {
+  padding-right: 20px;
+  border-right: 1px solid var(--soledad-border);
+}
+
+.tm-headline-strip__item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.tm-headline-strip__title {
+  font-family: var(--soledad-font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--soledad-text);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.tm-headline-strip__title:hover {
+  color: var(--soledad-accent);
+}
+
+.tm-headline-strip__date {
+  font-size: 12px;
+  color: var(--soledad-text-muted);
+}
+
+/* World & Politics style block */
+.tm-world__grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 32px;
+  align-items: start;
+}
+
+.tm-world__featured .soledad-hero-card {
+  min-height: 420px;
+}
+
+.tm-world__list .soledad-list-item:first-child {
+  padding-top: 0;
+}
+
+/* Four magazine columns (Education / Business / …) */
+.tm-magazine-cols-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: var(--soledad-bg-elevated);
+}
+
+.tm-magazine-cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.tm-mag-col__title {
+  font-family: var(--soledad-font-heading);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--soledad-accent);
+}
+
+.tm-mag-col__title a {
+  color: var(--soledad-text);
+}
+
+.tm-mag-col__title a:hover {
+  color: var(--soledad-accent);
+}
+
+.tm-mag-col__featured {
+  margin-bottom: 16px;
+}
+
+.tm-mag-col__featured .soledad-trending-card {
+  aspect-ratio: 16/10;
+}
+
+.tm-mag-col__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tm-mag-col__list li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--soledad-border);
+}
+
+.tm-mag-col__list li:last-child {
+  border-bottom: none;
+}
+
+.tm-mag-col__list a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--soledad-text);
+  display: block;
+}
+
+.tm-mag-col__list a:hover {
+  color: var(--soledad-accent);
+}
+
+.tm-mag-col__date {
+  font-size: 11px;
+  color: var(--soledad-text-muted);
+  margin-top: 4px;
+  display: block;
+}
+
+body.bn2-theme .tm-magazine a.soledad-trending-card,
+body.bn2-theme .tm-magazine a.soledad-trending-card:hover {
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .tm-headline-strip__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tm-headline-strip__item:nth-child(2) {
+    border-right: none;
+  }
+
+  .tm-magazine-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tm-world__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  .tm-headline-strip__grid,
+  .tm-magazine-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .tm-headline-strip__item {
+    border-right: none;
+    padding-right: 0;
+    border-bottom: 1px solid var(--soledad-border);
+    padding-bottom: 16px;
+  }
+
+  .tm-headline-strip__item:last-child {
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,14 @@
+[
+	{
+		"label": "Știrile zilei în Târgoviște",
+		"path": "/categorie/azi-in-targoviste"
+	},
+	{
+		"label": "Știri naționale și internaționale",
+		"path": "/categorie/stiri-nationale-si-internationale"
+	},
+	{
+		"label": "Evenimente și Cultură în Târgoviște",
+		"path": "/categorie/evenimente-si-cultura"
+	}
+]

@@ -1,0 +1,11 @@
+# Dependencies / Next.js build
+node_modules/
+.next/
+
+# OpenNext (Cloudflare) build output
+.open-next
+.wrangler
+
+# Generated evergreen mirrors (recreated by npm run generate:evergreen)
+public/_evergreen/
+public/evergreen-index.json
