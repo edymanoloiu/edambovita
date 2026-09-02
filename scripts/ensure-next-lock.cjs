@@ -41,12 +41,11 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 	rmIfExists(path.join(root, "public", "_posts"), "public/_posts/");
 	rmIfExists(path.join(root, "public", "_evergreen"), "public/_evergreen/");
 
+	// Post images are static assets; after next build they live in /vercel/output only.
+	rmIfExists(path.join(root, "public", "images", "posts"), "public/images/posts/");
+
 	// Build-only copies under lib/ (public/*.json stays for packaging).
 	rmIfExists(path.join(root, "lib", "postsIndex.json"), "lib/postsIndex.json");
-
-	// Git pack files can exceed 240MB; objects are not needed after build output exists.
-	// Keep .git/FETCH_HEAD etc. — Vercel lstats them during "Deploying outputs".
-	rmIfExists(path.join(root, ".git", "objects"), ".git/objects/");
 
 	// Re-prune unused @next/swc-* after build (webpack may leave extra platform binaries).
 	const nextPkgs = path.join(root, "node_modules", "@next");
