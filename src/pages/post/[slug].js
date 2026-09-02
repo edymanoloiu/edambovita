@@ -1,5 +1,6 @@
 import Script from 'next/script';
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
+import { getAllPosts } from "../../../lib/postsList.js";
+import { getPostBySlug } from "../../../lib/postBody.js";
 import markdownToHtml from "../../../lib/markdownToHtml";
 import Breadcrumb from "../../components/common/Breadcrumb";
 import HeadMeta from "../../components/elements/HeadMeta";
@@ -72,11 +73,11 @@ const PostFormatHandler = () => {
 
 	return (
 		<>
-			{postContent.hasScript && postContent.hasOwnScript && postContent.script && (
+			{postContent.hasScript && postContent.hasOwnScript &&
 				<Script strategy="afterInteractive">
 					{postContent.script}
 				</Script>
-			)}
+			}
 			<HeadMeta
 				metaTitle={postContent.title}
 				metaDesc={metaDescription}
@@ -114,7 +115,7 @@ export async function getStaticProps({ params }) {
 		return { notFound: true };
 	}
 
-	const post = getPostBySlug(params.slug, [
+	const post = await getPostBySlug(params.slug, [
 		'postFormat',
 		'title',
 		'quoteText',
@@ -155,7 +156,7 @@ export async function getStaticProps({ params }) {
 
 	const content = await markdownToHtml(post.content || '')
 
-	const allPosts = getAllPosts([
+	const allPosts = (await getAllPosts([
 		'title',
 		'featureImg',
 		'featureImgSrc',
@@ -167,7 +168,7 @@ export async function getStaticProps({ params }) {
 		'cate_img',
 		'author_name',
 		'trending'
-	]).sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 150);
+	])).sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 150);
 
 	return {
 		props: {

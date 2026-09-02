@@ -64,7 +64,7 @@ export async function getServerSideProps({ params }) {
 
 	let postParams = params.slug;
 
-	const allPosts = getAllPosts([
+	const allPosts = await getAllPosts([
 		'slug',
 		'cate',
 		'cate_img',

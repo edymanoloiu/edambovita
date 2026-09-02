@@ -1,6 +1,3 @@
-const { getAllPosts } = require('./lib/api');
-const { isRecomandarePost } = require('./lib/recomandarePosts.js');
-
 const slugify = (text) => {
 	if (!text) return '';
 	return text
@@ -38,7 +35,9 @@ module.exports = {
 		};
 	},
 	additionalPaths: async () => {
-		const posts = getAllPosts(['slug', 'date', 'cate', 'author_name', 'tags']);
+		const { getAllPosts } = await import('./lib/api.js');
+		const { isRecomandarePost } = await import('./lib/recomandarePosts.js');
+		const posts = await getAllPosts(['slug', 'date', 'cate', 'author_name', 'tags']);
 		const seenCategories = new Set();
 		const seenAuthors = new Set();
 		const paths = [];

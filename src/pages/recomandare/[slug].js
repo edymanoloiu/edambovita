@@ -1,5 +1,6 @@
 import Script from 'next/script';
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
+import { getAllPosts } from "../../../lib/postsList.js";
+import { getPostBySlug } from "../../../lib/postBody.js";
 import { isRecomandarePost } from "../../../lib/recomandarePosts";
 import markdownToHtml from "../../../lib/markdownToHtml";
 import Breadcrumb from "../../components/common/Breadcrumb";
@@ -11,7 +12,7 @@ import PostFormatText from "../../components/post/post-format/PostFormatText";
 import PostSectionSix from "../../components/post/PostSectionSix";
 
 const PostDetails = ({ postContent, allPosts }) => {
-	const siteUrl = 'https://edambovita.ro';
+	const siteUrl = 'https://gazetadecraiova.ro';
 	const toAbsoluteUrl = (value) => {
 		if (!value) return `${siteUrl}/images/logo.png`;
 		if (value.startsWith('http://') || value.startsWith('https://')) return value;
@@ -28,7 +29,7 @@ const PostDetails = ({ postContent, allPosts }) => {
 	const metaDescription = postContent.excerpt || toPlainText(postContent.content).slice(0, 200);
 	const publishedTime = toIsoDate(postContent.date);
 	const publisherLogoUrl = toAbsoluteUrl('/images/logo.png');
-	const publisherLabel = 'edambovita.ro';
+	const publisherLabel = 'gazetadecraiova.ro';
 	const jsonLd = {
 		'@context': 'https://schema.org',
 		'@type': 'Article',
@@ -82,7 +83,7 @@ export default PostDetails;
 export async function getServerSideProps({ params }) {
 	const slug = Array.isArray(params?.slug) ? params.slug[0] : params?.slug;
 	if (!slug || typeof slug !== 'string') return { notFound: true };
-	const post = getPostBySlug(slug, [
+	const post = await getPostBySlug(slug, [
 		'postFormat', 'title', 'quoteText', 'featureImg', 'videoLink', 'audioLink', 'gallery', 'date', 'slug',
 		'cate', 'cate_bg', 'author_name', 'author_img', 'author_bio', 'author_social', 'post_views', 'post_share',
 		'content', 'featureImgSrc', 'hasScript', 'excerpt', 'hasOwnScript', 'script', 'isPromo', 'tags',
@@ -90,10 +91,10 @@ export async function getServerSideProps({ params }) {
 	if (!post || !post.slug) return { notFound: true };
 	if (!isRecomandarePost(post)) return { notFound: true };
 	const content = await markdownToHtml(post.content || '');
-	const allPosts = getAllPosts([
+	const allPosts = (await getAllPosts([
 		'title', 'featureImg', 'featureImgSrc', 'postFormat', 'date', 'slug', 'cate', 'cate_bg', 'cate_img',
 		'author_name', 'trending', 'isPromo', 'tags',
-	])
+	]))
 		.filter((p) => !isRecomandarePost(p))
 		.sort((a, b) => new Date(b.date) - new Date(a.date))
 		.slice(0, 100);

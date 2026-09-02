@@ -45,7 +45,7 @@ function rssItemsFromSettled(settled, maxItems) {
 }
 
 export async function getServerSideProps() {
-	const posts = getAllPosts([
+	const posts = await getAllPosts([
 		'postFormat',
 		'trending',
 		'story',
