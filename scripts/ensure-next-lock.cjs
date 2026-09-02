@@ -44,8 +44,9 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 	// Build-only copies under lib/ (public/*.json stays for packaging).
 	rmIfExists(path.join(root, "lib", "postsIndex.json"), "lib/postsIndex.json");
 
-	// .git pack can exceed 240MB on large repos; not needed after build output exists.
-	rmIfExists(path.join(root, ".git"), ".git/");
+	// Git pack files can exceed 240MB; objects are not needed after build output exists.
+	// Keep .git/FETCH_HEAD etc. — Vercel lstats them during "Deploying outputs".
+	rmIfExists(path.join(root, ".git", "objects"), ".git/objects/");
 
 	// Re-prune unused @next/swc-* after build (webpack may leave extra platform binaries).
 	const nextPkgs = path.join(root, "node_modules", "@next");
