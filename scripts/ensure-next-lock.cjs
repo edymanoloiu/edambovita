@@ -43,6 +43,20 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 
 	// Build-only copies under lib/ (public/*.json stays for packaging).
 	rmIfExists(path.join(root, "lib", "postsIndex.json"), "lib/postsIndex.json");
+
+	// .git pack can exceed 240MB on large repos; not needed after build output exists.
+	rmIfExists(path.join(root, ".git"), ".git/");
+
+	// Re-prune unused @next/swc-* after build (webpack may leave extra platform binaries).
+	const nextPkgs = path.join(root, "node_modules", "@next");
+	if (fs.existsSync(nextPkgs)) {
+		const arch = process.arch === "arm64" ? "arm64" : "x64";
+		const keepName = `swc-linux-${arch}-gnu`;
+		for (const name of fs.readdirSync(nextPkgs)) {
+			if (!name.startsWith("swc-") || name === keepName) continue;
+			rmIfExists(path.join(nextPkgs, name), `node_modules/@next/${name}`);
+		}
+	}
 }
 
 fs.mkdirSync(cacheDir, { recursive: true });
