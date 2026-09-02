@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
 
 	useEffect(() => {
 		const handleRouteChange = (url) => {
-			window.gtag('config', 'G-25W0GM50EV', { page_path: url });
+			window.gtag('config', 'G-HY8QSX61C4', { page_path: url });
 		};
 		router.events.on('routeChangeComplete', handleRouteChange);
 		return () => router.events.off('routeChangeComplete', handleRouteChange);
@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			{/*  Global site tag (gtag.js) - Google Analytics */}
 			<Script
-				src="https://www.googletagmanager.com/gtag/js?id=G-25W0GM50EV"
+				src="https://www.googletagmanager.com/gtag/js?id=G-HY8QSX61C4"
 				strategy="afterInteractive"
 			/>
 			<Script
@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
 						'security_storage': 'granted'
 					});
 
-					gtag('config', 'G-25W0GM50EV', { page_path: window.location.pathname });
+					gtag('config', 'G-HY8QSX61C4', { page_path: window.location.pathname });
 				`}
 			</Script>
 			<ConsentFooter />
