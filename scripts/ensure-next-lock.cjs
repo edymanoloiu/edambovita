@@ -46,6 +46,7 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 
 	// Build-only copies under lib/ (public/*.json stays for packaging).
 	rmIfExists(path.join(root, "lib", "postsIndex.json"), "lib/postsIndex.json");
+	rmIfExists(path.join(root, "lib", "postsBodies.json"), "lib/postsBodies.json");
 
 	// Re-prune unused @next/swc-* after build (webpack may leave extra platform binaries).
 	const nextPkgs = path.join(root, "node_modules", "@next");
@@ -57,6 +58,9 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 			rmIfExists(path.join(nextPkgs, name), `node_modules/@next/${name}`);
 		}
 	}
+
+	// Free ~250MB git pack before Vercel "Deploying outputs" (ENOSPC).
+	rmIfExists(path.join(root, ".git"), ".git/");
 }
 
 fs.mkdirSync(cacheDir, { recursive: true });
