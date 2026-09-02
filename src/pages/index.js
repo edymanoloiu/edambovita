@@ -45,7 +45,7 @@ function rssItemsFromSettled(settled, maxItems) {
 }
 
 export async function getServerSideProps() {
-	const posts = await getAllPosts([
+	const posts = (await getAllPosts([
 		'postFormat',
 		'trending',
 		'story',
@@ -65,7 +65,7 @@ export async function getServerSideProps() {
 		'isPromo',
 		'topPost',
 		'tags',
-	])
+	]))
 		.filter((post) => !isRecomandarePost(post))
 		.sort((a, b) => new Date(b.date) - new Date(a.date));
 
