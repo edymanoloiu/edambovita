@@ -48,13 +48,12 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 	rmIfExists(path.join(root, "lib", "postsIndex.json"), "lib/postsIndex.json");
 	rmIfExists(path.join(root, "lib", "postsBodies.json"), "lib/postsBodies.json");
 
-	// Re-prune unused @next/swc-* after build (webpack may leave extra platform binaries).
+	// After next build, native SWC compiler binaries are unused (~124MB).
+	// Keep node_modules/@swc/helpers — packaging still lstats those files.
 	const nextPkgs = path.join(root, "node_modules", "@next");
 	if (fs.existsSync(nextPkgs)) {
-		const arch = process.arch === "arm64" ? "arm64" : "x64";
-		const keepName = `swc-linux-${arch}-gnu`;
 		for (const name of fs.readdirSync(nextPkgs)) {
-			if (!name.startsWith("swc-") || name === keepName) continue;
+			if (!name.startsWith("swc-")) continue;
 			rmIfExists(path.join(nextPkgs, name), `node_modules/@next/${name}`);
 		}
 	}
