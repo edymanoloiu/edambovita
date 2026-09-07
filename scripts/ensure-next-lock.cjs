@@ -22,6 +22,49 @@ function rmIfExists(target, label) {
 	return true;
 }
 
+// Truncate file contents but keep paths. Vercel packaging lstats known
+// .git paths (FETCH_HEAD, pack-*.idx); deleting them causes ENOENT, while
+// leaving ~230MB packs causes ENOSPC.
+function truncateFilesInTree(dir, label) {
+	if (!fs.existsSync(dir)) return 0;
+	let freed = 0;
+	let files = 0;
+	const stack = [dir];
+	while (stack.length) {
+		const current = stack.pop();
+		let entries;
+		try {
+			entries = fs.readdirSync(current, { withFileTypes: true });
+		} catch {
+			continue;
+		}
+		for (const entry of entries) {
+			const full = path.join(current, entry.name);
+			if (entry.isDirectory()) {
+				stack.push(full);
+				continue;
+			}
+			if (!entry.isFile()) continue;
+			try {
+				const size = fs.statSync(full).size;
+				if (size <= 0) continue;
+				fs.truncateSync(full, 0);
+				freed += size;
+				files += 1;
+			} catch {
+				// Ignore transient lstat/truncate races on Vercel.
+			}
+		}
+	}
+	if (files) {
+		const mb = (freed / (1024 * 1024)).toFixed(1);
+		console.log(
+			`📌 Truncated ${files} files under ${label} (~${mb}MB) to free Vercel deploy disk`
+		);
+	}
+	return freed;
+}
+
 if (!fs.existsSync(nextDir)) {
 	console.warn("⚠️  .next directory missing; skip lock stub");
 	process.exit(0);
@@ -58,6 +101,8 @@ if (process.env.VERCEL && process.env.VERCEL_ENV) {
 		}
 	}
 
+	// Free ~230MB git pack without deleting paths Vercel still lstats.
+	truncateFilesInTree(path.join(root, ".git", "objects"), ".git/objects");
 }
 
 fs.mkdirSync(cacheDir, { recursive: true });
