@@ -2,7 +2,7 @@
 postFormat: 'text'
 trending: false
 title: 'Spital urgențe Găești'
-excerpt: 'Spitalul Orășenesc Găești, Găești. 0245 710 297. Duminica UPU e deschis unde există.'
+excerpt: 'Unde mergi pentru o urgență medicală în Găești: camera de primiri urgențe, adresa spitalului, telefoane și situațiile în care trebuie apelat 112.'
 featureImg: /images/posts/spital-urgente-gaesti.webp
 thumb: /images/posts/spital-urgente-gaesti.webp
 date: Sep 13 2026
@@ -25,22 +25,50 @@ tags:
 
 # Spital urgențe Găești
 
-**Răspuns rapid:** Urgențele din **Găești** se prezintă la **Spitalul Orășenesc Găești**, telefon **0245 710 297**. Confirmă adresa la centrală.. Dacă unitatea locală redirecționează: SJU Târgoviște, strada Tudor Vladimirescu nr. 48. **112**.
+**Răspuns rapid:** pentru o problemă medicală urgentă în Găești, punctul local de prezentare este **Spitalul Orășenesc Găești**, Strada 13 Decembrie nr. 170. Primăria Găești publică numărul **0245 210 200** pentru urgențe și precizează că serviciul funcționează non-stop. Pentru pericol imediat, accident grav, durere toracică, semne de AVC, dificultăți de respirație sau pierderea stării de conștiență, sună direct la **112**.
 
-## Ce nu e UPU
+**Actualizat: 13 septembrie 2026.** Datele de contact și organizarea circuitelor se pot schimba; pentru cazurile care permit deplasarea în siguranță, confirmă telefonic intrarea corectă.
 
-Ambulatoriul de luni–vineri și alte pavilioane (boli infecțioase, oncologie, TBC) nu înlocuiesc camera de gardă. Duminică, 13 septembrie 2026, te prezinți la UPU sau apelezi 112.
+| Unitate | Adresă | Telefon | Program | Servicii relevante | Website |
+|---|---|---|---|---|---|
+| Spitalul Orășenesc Găești – primiri urgențe | Str. 13 Decembrie nr. 170, Găești | 0245 210 200 (urgențe); 0245 710 297 (centrală) | Non-stop pentru urgențe | evaluare și stabilizare inițială; trimitere sau transfer când cazul depășește competența locală | [spitalul-gaesti.ro](https://spitalul-gaesti.ro/) |
+
+## Când mergi la spital și când suni la 112
+
+Poți merge la camera de primiri urgențe atunci când starea necesită evaluare rapidă, dar persoana poate fi transportată fără risc. Nu conduce dacă ai amețeli severe, durere toracică, tulburări de vedere, slăbiciune bruscă sau stare de leșin.
+
+Sună la 112 când există risc vital ori transportul cu mașina personală ar putea agrava situația. Spune operatorului adresa exactă, vârsta pacientului, simptomele principale și momentul în care au început.
+
+## Ce să ai la tine
+
+Dacă situația permite, ia actul de identitate, cardul de sănătate, lista medicamentelor folosite și orice scrisoare medicală relevantă. Îngrijirea unei urgențe nu trebuie amânată dacă aceste documente nu sunt disponibile.
+
+## Cum am verificat informațiile
+
+Am comparat pagina oficială a spitalului, care descrie linia de gardă disponibilă 24 de ore și structura de primiri urgențe, cu pagina Primăriei Găești dedicată spitalului. Adresa și telefoanele provin din aceste surse instituționale; nu am folosit directoare comerciale drept sursă principală.
 
 ## Întrebări frecvente
 
-### Unde e UPU?
+### Unde merg pentru o urgență medicală în Găești?
 
-SJU Târgoviște, strada Tudor Vladimirescu nr. 48
+La Spitalul Orășenesc Găești, Strada 13 Decembrie nr. 170. Pentru orientare poți suna la 0245 210 200.
 
-### E deschis azi?
+### Primirile de urgență din Găești funcționează noaptea?
 
-UPU da, unde există linie de urgență.
+Da. Pagina Primăriei Găești indică un serviciu de urgență non-stop, iar spitalul menționează linie de gardă 24/24.
+
+### Pot suna la 112 dacă nu știu cât de grav este cazul?
+
+Da, dacă simptomele sugerează un posibil pericol imediat. Operatorul 112 stabilește resursa potrivită pe baza informațiilor comunicate.
+
+### Ambulatoriul este același lucru cu serviciul de urgență?
+
+Nu. Ambulatoriul oferă consultații programate și are un program separat; nu înlocuiește circuitul pentru urgențe.
 
 ## Surse
 
-- [MS — SJU Târgoviște](https://www.ms.ro/ro/unitati-sanitare/spitalul-judetean-de-urgenta-targoviste/)
+- [Spitalul Orășenesc Găești — site oficial](https://spitalul-gaesti.ro/)
+- [Primăria Găești — Spitalul Găești](https://www.primaria-gaesti.ro/comunitate/spitalul-gaesti)
+- [STS — Serviciul de urgență 112](https://www.sts.ro/ro/serviciul-112)
+
+> **Important:** acest ghid nu înlocuiește evaluarea medicală. Într-o urgență majoră nu aștepta confirmarea telefonică a programului: apelează 112.

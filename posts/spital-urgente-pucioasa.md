@@ -2,7 +2,7 @@
 postFormat: 'text'
 trending: false
 title: 'Spital urgențe Pucioasa'
-excerpt: 'Spitalul Orășenesc Pucioasa, Pucioasa. SJU Târgoviște, strada Tudor Vladimirescu nr. 48. Duminica UPU e deschis unde există.'
+excerpt: 'Unde ceri ajutor pentru o urgență medicală în Pucioasa: contactul spitalului local, limitele informațiilor publice și când trebuie sunat la 112.'
 featureImg: /images/posts/spital-urgente-pucioasa.webp
 thumb: /images/posts/spital-urgente-pucioasa.webp
 date: Sep 13 2026
@@ -25,22 +25,55 @@ tags:
 
 # Spital urgențe Pucioasa
 
-**Răspuns rapid:** Urgențele din **Pucioasa** se prezintă la **Spitalul Orășenesc Pucioasa** e listat în rețeaua județeană. Confirmă adresa înainte să pleci.. Dacă unitatea locală redirecționează: SJU Târgoviște, strada Tudor Vladimirescu nr. 48. **112**.
+**Răspuns rapid:** Spitalul Orășenesc Pucioasa este la **Strada Republicii nr. 95**, telefon **0245 760 510**. Sursele publice consultate nu afișează un număr separat și un program explicit pentru o Cameră de Gardă, astfel că este prudent să suni spitalul pentru orientare dacă situația permite. Pentru simptome grave sau transport nesigur, apelează direct **112**.
 
-## Ce nu e UPU
+**Actualizat: 13 septembrie 2026.** Nu prezentăm spitalul local drept UPU non-stop fără o confirmare instituțională explicită.
 
-Ambulatoriul de luni–vineri și alte pavilioane (boli infecțioase, oncologie, TBC) nu înlocuiesc camera de gardă. Duminică, 13 septembrie 2026, te prezinți la UPU sau apelezi 112.
+> Programul și disponibilitatea serviciilor se pot modifica. Recomandăm verificarea telefonică înainte de deplasare.
+
+| Unitate | Adresă | Telefon | Program | Servicii relevante | Website |
+|---|---|---|---|---|---|
+| Spitalul Orășenesc Pucioasa | Str. Republicii nr. 95, Pucioasa | 0245 760 510; secretariat 0245 760 627 | programul exact al primirii urgențelor nu este publicat clar | spital local; sună pentru orientare și confirmarea circuitului potrivit | [spitalpucioasa.ro](http://spitalpucioasa.ro/) |
+| Spitalul Județean de Urgență Târgoviște – UPU | Str. Tudor Vladimirescu nr. 48, Târgoviște | 0245 631 582; 0372 614 600 | UPU funcționează fără întrerupere | urgențe majore și cazuri care necesită competențe județene | [spitaldb.ro](https://www.spitaldb.ro/) |
+
+## Ce faci înainte de deplasare
+
+Dacă problema este urgentă, dar pacientul este stabil și poate fi transportat fără risc, sună la Spitalul Orășenesc Pucioasa și întreabă unde se face evaluarea la ora respectivă. Nu confunda programările din ambulatoriu cu primirea urgențelor.
+
+Pentru durere toracică severă, semne de AVC, dificultăți mari de respirație, pierderea stării de conștiență, hemoragie sau traumatism important, nu porni la drum fără îndrumare medicală: sună la 112.
+
+## De ce apare și spitalul din Târgoviște
+
+Spitalul Județean de Urgență Târgoviște are UPU confirmată oficial și deservește județul. Menționarea lui nu înseamnă că fiecare pacient din Pucioasa trebuie să meargă direct acolo; dispeceratul 112 sau personalul spitalului local stabilește destinația potrivită în funcție de gravitate și competență.
+
+## Cum am verificat informațiile
+
+Am folosit datele publicate de Primăria Pucioasa și de centrul local de informare turistică pentru spitalul orășenesc, iar pentru UPU Târgoviște am verificat site-ul spitalului și fișa Ministerului Sănătății. Deoarece nu am găsit o confirmare oficială clară a unui program non-stop pentru o Cameră de Gardă la Pucioasa, nu facem această afirmație.
 
 ## Întrebări frecvente
 
-### Unde e UPU?
+### Care este telefonul Spitalului Orășenesc Pucioasa?
 
-SJU Târgoviște, strada Tudor Vladimirescu nr. 48
+Numărul principal publicat este 0245 760 510; secretariatul are numărul 0245 760 627.
 
-### E deschis azi?
+### Spitalul din Pucioasa are urgențe non-stop?
 
-UPU da, unde există linie de urgență.
+Sursele publice verificate nu precizează suficient de clar un program non-stop al unei Camere de Gardă. Sună la spital pentru orientare sau la 112 dacă situația este gravă.
+
+### Unde este UPU județeană?
+
+La Spitalul Județean de Urgență Târgoviște, Strada Tudor Vladimirescu nr. 48.
+
+### Am nevoie de cardul de sănătate într-o urgență?
+
+Ia-l dacă îl ai la îndemână, dar nu amâna solicitarea ajutorului medical pentru a căuta documente.
 
 ## Surse
 
-- [MS — SJU Târgoviște](https://www.ms.ro/ro/unitati-sanitare/spitalul-judetean-de-urgenta-targoviste/)
+- [CNIPT Pucioasa — adrese utile](https://turismpucioasa.ro/acasa/lateral/adrese-utile/)
+- [Primăria Pucioasa — instituții în subordine](https://primariapucioasa.ro/despre-noi/organizare)
+- [Spitalul Județean de Urgență Târgoviște — organizare și informare UPU](https://www.spitaldb.ro/despre-noi/organizare)
+- [Ministerul Sănătății — Spitalul Județean de Urgență Târgoviște](https://www.ms.ro/ro/unitati-sanitare/spitalul-judetean-de-urgenta-targoviste/)
+- [STS — Serviciul de urgență 112](https://www.sts.ro/ro/serviciul-112)
+
+> **Important:** ghidul oferă orientare, nu triaj medical. Pentru o posibilă urgență majoră, sună imediat la 112.
