@@ -36,6 +36,7 @@ const formatDate = (date) => {
 
 const MagazineColumn = ({ title, href, featured, items }) => {
 	if (!featured && !items?.length) return null;
+	const autoFeed = sitemaps?.cm?.slice(0, 6) || [];
 	return (
 		<div className="tm-mag-col">
 			<h3 className="tm-mag-col__title">
@@ -324,6 +325,33 @@ const SoledadTimesHome = ({ localPosts, culturePosts, nationalPosts, sitemaps })
 							<Link href="/categorie/evenimente-si-cultura" className="soledad-btn">
 								Toate evenimentele
 							</Link>
+						</div>
+					</div>
+				</section>
+			)}
+
+
+			{autoFeed.length > 0 && (
+				<section className="soledad-section-gap soledad-section--alt">
+					<div className="soledad-container">
+						<h2 className="soledad-section-title">
+							<a href="https://cautimasina.ro/" target="_blank" rel="noopener noreferrer">
+								Auto
+							</a>
+						</h2>
+						<p className="soledad-section-intro">
+							Ultimele știri auto de pe CautiMasina.ro
+						</p>
+						<SoledadImportedList items={autoFeed} />
+						<div className="soledad-load-more">
+							<a
+								href="https://cautimasina.ro/"
+								className="soledad-btn"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								Mai multe pe CautiMasina
+							</a>
 						</div>
 					</div>
 				</section>
