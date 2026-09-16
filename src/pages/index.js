@@ -44,6 +44,29 @@ function rssItemsFromSettled(settled, maxItems) {
 	return Array.isArray(items) ? items.slice(0, maxItems) : [];
 }
 
+
+async function fetchCautiMasinaItems(parser, limit = 6) {
+	const url = "https://cautimasina.ro/rss.xml";
+	for (let attempt = 0; attempt < 3; attempt += 1) {
+		try {
+			const feed = await parser.parseURL(url);
+			const items = (feed?.items || [])
+				.filter(
+					(item) =>
+						item?.title &&
+						item?.link &&
+						/cautimasina\.ro/i.test(String(item.link))
+				)
+				.slice(0, limit);
+			if (items.length) return items;
+		} catch (err) {
+			// retry on 429 / timeout
+		}
+		await new Promise((resolve) => setTimeout(resolve, 600 * (attempt + 1)));
+	}
+	return [];
+}
+
 export async function getServerSideProps() {
 	const posts = (await getAllPosts([
 		'postFormat',
@@ -89,9 +112,10 @@ export async function getServerSideProps() {
 		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://sfaturidesanatate.ro/rss.xml'),
 		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://ghidulgospodarului.ro/rss.xml'),
 		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://azicemancam.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://cautimasina.ro/rss.xml'),
 		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://painesicirc.ro/rss.xml'),
 	]);
+
+	const cmItems = await fetchCautiMasinaItems(new Parser({ timeout: RSS_TIMEOUT_MS }), 6);
 
 	return {
 		props: {
@@ -105,8 +129,8 @@ export async function getServerSideProps() {
 				sanatate: rssItemsFromSettled(weboSitemaps[3], 6),
 				gospodar: rssItemsFromSettled(weboSitemaps[4], 6),
 				azi: rssItemsFromSettled(weboSitemaps[5], 6),
-				cm: rssItemsFromSettled(weboSitemaps[6], 6),
-				pc: rssItemsFromSettled(weboSitemaps[7], 10),
+				cm: cmItems,
+				pc: rssItemsFromSettled(weboSitemaps[6], 10),
 			},
 		},
 	};
