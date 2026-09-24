@@ -36,7 +36,6 @@ const formatDate = (date) => {
 
 const MagazineColumn = ({ title, href, featured, items }) => {
 	if (!featured && !items?.length) return null;
-	const autoFeed = sitemaps?.cm?.slice(0, 6) || [];
 	return (
 		<div className="tm-mag-col">
 			<h3 className="tm-mag-col__title">
@@ -127,6 +126,7 @@ const SoledadTimesHome = ({ localPosts, culturePosts, nationalPosts, sitemaps })
 	const nationalFeed = nationalPosts?.slice(0, 8) || [];
 	const worldFeatured = nationalFeed[0];
 	const worldList = nationalFeed.slice(1, 5);
+	const autoFeed = sitemaps?.cm?.slice(0, 6) || [];
 
 	const partnerHeadlines = PARTNER_FEEDS.map(({ key, label }) => {
 		const item = sitemaps?.[key]?.[0];
