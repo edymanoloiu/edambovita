@@ -98,8 +98,10 @@ export async function getServerSideProps() {
 		'topPost',
 		'tags',
 	]))
-		.filter((post) => !isRecomandarePost(post))
-		.sort((a, b) => new Date(b.date) - new Date(a.date));
+		.filter((post) => !isRecomandarePost(post));
+
+	const takeLatest = (predicate, limit = 30) =>
+		sortPostsByDate(posts.filter(predicate)).slice(0, limit);
 
 	const uniqueFromAll = dedupePostsBySlug(posts);
 	const localPosts = buildLocalPostsWithPromos(uniqueFromAll, site.localCate).slice(0, 60);
