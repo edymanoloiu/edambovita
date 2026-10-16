@@ -79,33 +79,15 @@ export async function getServerSideProps({ res }) {
 		...takeLatest((a) => a.isPromo),
 	];
 
-	const weboSitemaps = await Promise.allSettled([
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://obliqdesign.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://meritasamergi.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://ghidullegal.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://sfaturidesanatate.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://ghidulgospodarului.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://azicemancam.ro/rss.xml'),
-		new Parser({ timeout: RSS_TIMEOUT_MS }).parseURL('https://painesicirc.ro/rss.xml'),
-	]);
-
-	const cmItems = await fetchCautiMasinaItems(new Parser({ timeout: RSS_TIMEOUT_MS }), 6);
+	const sitemaps = await fetchPartnerSitemaps();
+const cmItems = await fetchCautiMasinaItems(new Parser({ timeout: RSS_TIMEOUT_MS }), 6);
 
 	return {
 		props: {
 			allPosts,
 			localPosts,
 			culturePosts,
-			sitemaps: {
-				obliq: rssItemsFromSettled(weboSitemaps[0], 6),
-				mm: rssItemsFromSettled(weboSitemaps[1], 6),
-				legal: rssItemsFromSettled(weboSitemaps[2], 6),
-				sanatate: rssItemsFromSettled(weboSitemaps[3], 6),
-				gospodar: rssItemsFromSettled(weboSitemaps[4], 6),
-				azi: rssItemsFromSettled(weboSitemaps[5], 6),
-				cm: cmItems,
-				pc: rssItemsFromSettled(weboSitemaps[6], 10),
-			},
+			sitemaps,
 		},
 	};
 }
