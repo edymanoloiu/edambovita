@@ -80,9 +80,7 @@ export async function getServerSideProps({ res }) {
 	];
 
 	const sitemaps = await fetchPartnerSitemaps();
-const cmItems = await fetchCautiMasinaItems(new Parser({ timeout: RSS_TIMEOUT_MS }), 6);
-
-	return {
+return {
 		props: {
 			allPosts,
 			localPosts,

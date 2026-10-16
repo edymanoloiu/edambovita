@@ -6,7 +6,7 @@
   "scripts": {
     "generate:rss": "node scripts/generate-rss.js",
     "generate:posts": "node scripts/generate-posts-json.js",
-    "prebuild": "npm run generate:posts && npm run generate:evergreen && npm run generate:search && npm run content:validate",
+    "prebuild": "npm run generate:posts && npm run generate:evergreen && npm run generate:search && npm run content:validate && npm run generate:homepage-posts",
     "dev": "next dev --webpack",
     "build": "npm run generate:evergreen && NODE_ENV=production next build --webpack && node scripts/postbuild.cjs",
     "start": "next start",
