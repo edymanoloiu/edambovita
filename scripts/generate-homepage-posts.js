@@ -44,14 +44,27 @@ function byDateDesc(a, b) {
 	return new Date(b.date) - new Date(a.date);
 }
 
+
+function normalizeIndex(index) {
+	if (Array.isArray(index)) return index;
+	if (index && typeof index === "object") {
+		return Object.entries(index).map(([slug, data]) => ({
+			slug,
+			...(data && typeof data === "object" ? data : {}),
+		}));
+	}
+	return [];
+}
+
 function main() {
 	if (!fs.existsSync(postsIndexPath)) {
 		console.warn("⚠️  Missing public/posts-index.json; skip homepage-posts generation.");
 		return;
 	}
 
-	const index = JSON.parse(fs.readFileSync(postsIndexPath, "utf8"));
-	if (!Array.isArray(index) || !index.length) {
+	const rawIndex = JSON.parse(fs.readFileSync(postsIndexPath, "utf8"));
+	const index = normalizeIndex(rawIndex);
+	if (!index.length) {
 		console.warn("⚠️  Empty posts index; skip homepage-posts generation.");
 		return;
 	}
