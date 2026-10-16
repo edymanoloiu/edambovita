@@ -17,8 +17,8 @@
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy",
     "open-next:build": "open-next build --webpack",
-    "cf:build": "npm run generate:evergreen && opennextjs-cloudflare build",
-    "cf:deploy": "npm run generate:evergreen && opennextjs-cloudflare deploy",
+    "cf:build": "npm run generate:evergreen && npm run generate:homepage-posts && opennextjs-cloudflare build",
+    "cf:deploy": "npm run generate:evergreen && npm run generate:homepage-posts && opennextjs-cloudflare deploy",
     "cf:upload": "opennextjs-cloudflare upload",
     "generate:search": "node scripts/generate-search-index.js",
     "content:validate": "node scripts/content-validate.js",
@@ -27,7 +27,8 @@
     "seo:check": "node scripts/seo-check.js",
     "generate:local-evergreen": "node scripts/generate-local-evergreen.js",
     "test:local-evergreen": "node tests/generate-local-evergreen.test.js",
-    "generate:evergreen": "node scripts/generate-evergreen-assets.js"
+    "generate:evergreen": "node scripts/generate-evergreen-assets.js",
+    "generate:homepage-posts": "node scripts/generate-homepage-posts.js"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
