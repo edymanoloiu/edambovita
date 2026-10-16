@@ -1,4 +1,4 @@
-const soledadSite = {
+const weboratorySite = {
 	localCate: "Azi in Targoviste",
 	categorySlug: "azi-in-targoviste",
 	pageH1: "Știri din Dâmbovița",
@@ -13,4 +13,4 @@ const soledadSite = {
 	metaTitle: "eDâmbovița - Știri din Dâmbovița și Târgoviște",
 };
 
-export default soledadSite;
+export default weboratorySite;
