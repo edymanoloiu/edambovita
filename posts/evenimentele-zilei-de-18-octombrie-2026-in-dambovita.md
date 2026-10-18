@@ -1,16 +1,16 @@
 ---
 topPost: true
 postFormat: 'text'
-trending: true
+trending: false
 title: "Evenimentele zilei de 18 octombrie 2026 în Dâmbovița"
-excerpt: "Pe 18 octombrie 2026, județul Dâmbovița a fost martorul unor evenimente notabile, inclusiv incidente sociale, activități educaționale și inițiative economice. Detalii din Târgoviște, Aninoasa, Titu și alte localități sunt incluse în acest rezumat."
+excerpt: "Pe 18 octombrie 2026, județul Dâmbovița a fost martor la o serie de evenimente notabile, incluzând accidente rutiere grave, inaugurarea unei școli în Moroeni, controale de mediu la Aninoasa și sfințirea unei biserici. Iată un rezumat al principalelor știri din zonă."
 featureImg: https://upload.wikimedia.org/wikipedia/commons/1/19/Curtea-domneasca-Targoviste-aerial-view.jpg
 date: Oct 18 2026
 cate: 'Azi in Targoviste'
 cate_bg: 'bg-color-red-one'
 cate_img: '/images/category/world.png'
-post_views: '5K Vizualizari'
-post_share: '27 Shares'
+post_views: '7K Vizualizari'
+post_share: '11 Shares'
 author_name: 'Radu Ioniță'
 author_desg: 'Publisher'
 author_img: '/images/author/mircea.png'
@@ -19,36 +19,24 @@ tags:
 - Azi in Targoviste
 ---
 
-## ⚠️ Incidente Notabile
+## ⚠️ Incidente și Accidente
 
-Un incident violent a avut loc într-un magazin din Aninoasa, pe 17 octombrie, când doi bărbați, unul de 45 de ani și altul de 29, s-au implicat într-o altercație fizică. Bărbatul mai în vârstă a necesitat transportul la spital pentru tratament, iar poliția a demarat o anchetă pentru a clarifica circumstanțele conflictului.
+Pe parcursul zilei de duminică, 18 octombrie, au fost raportate două accidente rutiere în județul Dâmbovița. Primul incident a avut loc pe DN 72A, în jurul orei 14:10, când un autoturism condus de un tânăr de 26 de ani din Iedera a intrat în coliziune față-spate cu un alt vehicul condus de un bărbat de 47 de ani din Șotânga. O pasageră din mașina celui de-al doilea șofer a suferit răni și a necesitat transportul la spital. Amândoi conducătorii auto au fost testați pentru alcoolemie, rezultatele fiind negative.
 
-## 🚨 Accident Rutier
+Al doilea accident s-a produs pe DN 72, în jurul orei 16:15, în apropierea localității Lucieni. Un bărbat de 26 de ani din Dolj a intrat în coliziune cu un autoturism condus de un târgoviștean de 32 de ani. De asemenea, șoferul din Târgoviște a fost transportat la spital, dar a refuzat să depună plângere. Testele de alcoolemie pentru ambii șoferi au fost negative.
 
-În aceeași zi, o femeie în vârstă de 66 de ani din Târgoviște a fost implicată într-un accident pe DN 71, în localitatea Ilfoveni, Nucet. Aceasta a pierdut controlul vehiculului, ieșind de pe carosabil. A fost transportată de urgență la spital, iar la fața locului au intervenit pompierii din Detașamentul Târgoviște, care au fost sprijiniți de echipajul SMURD.
+## 🎓 Inaugurarea unei noi școli
 
-## 💡 Inițiative Economice
+În aceeași zi, a fost deschisă noua Școală Gimnazială din satul Glod, comuna Moroeni. Proiectul, realizat cu fonduri din Programul Național de Redresare și Reziliență (PNRR), a presupus o investiție de 11 milioane de lei, având ca scop îmbunătățirea condițiilor de învățare pentru cei 350 de elevi și cadre didactice.
 
-Camera de Comerț, Industrie și Agricultură Dâmbovița desfășoară activități pentru dezvoltarea business-ului local, axându-se pe stabilirea unor parteneriate cu Republica Moldova. Antreprenorii interesați de colaborări internaționale sunt invitați să se adreseze CCIA Dâmbovița pentru oportunități de cooperare.
+## 🌳 Control de mediu
 
-## 🎓 Activități Educaționale
+O acțiune comună a poliției și Gărzii Naționale de Mediu a dus la descoperirea a aproximativ 100.000 de kilograme de deșeuri periculoase la o societate din Aninoasa. Deșeurile includeau metale feroase și neferoase, precum și echipamente electrice și electrocasnice abandonate. Autoritățile au deschis un dosar penal și au aplicat o sancțiune de 25.000 de lei.
 
-Pe 18 octombrie, Inspectoratul de Poliție Județean Dâmbovița, împreună cu Direcția de Asistență Socială Târgoviște, a organizat o campanie de informare despre prevenirea traficului de persoane. Evenimentul a avut loc la Centrul Multifuncțional „Sfânta Maria” și a avut ca scop creșterea conștientizării cu privire la riscurile traficului de persoane.
+## 🏛 Sfințirea unei biserici
 
-## 🏗 Proiecte de Dezvoltare Urbană
+Duminica, 18 octombrie, a fost marcată de sfințirea bisericii Schitului „La Stejari” din comuna Mănești, oficiată de Înaltpreasfințitul Părinte Mitropolit Nifon, Arhiepiscopul Târgoviștei. La ceremonie au fost prezenți numeroși credincioși și oficiali locali, evidențiind importanța acestui eveniment religios pentru comunitate.
 
-Primăria Târgoviște a anunțat că a depus o solicitare pentru obținerea avizului de mediu în cadrul proiectului „Amenajarea și valorificarea peisagistică a Șanțului și Valului Cetății – etapa 2”. Proiectul va cuprinde lucrări pe tronsoanele 5-9, delimitate de strada Berzei, cu finalizare înainte de intersecția cu Calea București.
+## 💡 Concluzie
 
-Locuitorii din Titu sunt chemați să se implice în inițiativa de înființare a unui muzeu, dedicat promovării patrimoniului local. Primăria din Titu va începe să primească cereri pentru ajutoare de încălzire și suplimente de energie începând cu 20 octombrie.
-
-## 🌳 Probleme de Mediu
-
-Depozitul de deșeuri din Titu continuă să genereze controverse, fiind operat fără monitorizare din 2023. Garda Națională de Mediu a sancționat Consiliul Județean Dâmbovița pentru nerespectarea reglementărilor de mediu, impunând măsuri corective.
-
-## 🏛 Politică Locală
-
-În județul Dâmbovița, se derulează alegeri interne în filiale ale PSD, o săptămână aglomerată pentru activitatea politică locală.
-
-## 🔎 Sinteză
-
-Ziua de 18 octombrie 2026 a adus în județul Dâmbovița o serie de evenimente variate, incluzând incidente sociale, inițiative educaționale și progrese în domeniul urbanismului. Aceste activități reflectă o realitate complexă, cu provocări și oportunități pentru comunitate.
+Ziua de 18 octombrie 2026 în județul Dâmbovița a fost marcată de o varietate de evenimente, de la accidente rutiere la progrese în educație și intervenții legate de mediu, reflectând o comunitate activă și angajată în problemele locale.
