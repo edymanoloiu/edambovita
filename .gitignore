@@ -9,3 +9,4 @@ node_modules/
 # Generated evergreen mirrors (recreated by npm run generate:evergreen)
 public/_evergreen/
 public/evergreen-index.json
+.vercel
