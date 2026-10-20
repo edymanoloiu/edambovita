@@ -33,7 +33,7 @@ Municipiul Târgoviște, str. Revoluției 1-3: luni–vineri 08:00–16:00. 0245
 
 Pagina de audiențe: marți 08:30–10:00, Sala de Consiliu. Înscriere zilnic 08:30–10:30, int. 1130, sau la Compartimentul Îndrumare și Coordonare Asociații de Proprietari.
 
-## Taxe: alt program, alte adrese
+## Impozite și taxe locale
 
 Buletinul din ianuarie 2026: luni și miercuri–vineri 08:00–16:30 la impozite; marți 08:00–18:30. Adrese: Poet Grigore Alexandrescu, bl. E4, și Bd. Unirii nr. 26.
 
