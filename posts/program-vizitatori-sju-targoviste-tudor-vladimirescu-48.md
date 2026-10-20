@@ -45,7 +45,7 @@ Pagina spune un vizitator, pacienții vizitați pe rând.
 
 ### Luni la prânz?
 
-Nu. Prima fereastră lucrătoare e 17:00.
+Nu. Primul interval lucrător e 17:00.
 
 ## Surse
 
