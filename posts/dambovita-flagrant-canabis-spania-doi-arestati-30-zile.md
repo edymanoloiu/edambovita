@@ -45,6 +45,8 @@ Cazul este unul de trafic internațional și intern de droguri de risc, categori
 
 Comunicatul nu precizează dacă au fost ridicate și alte bunuri în afara canabisului din colete și nici dacă există alți suspecți în curs de identificare. Singurele date demografice făcute publice sunt vârstele de 28 și 48 de ani.
 
+Tribunalul Dâmbovița a fost sesizat după reținerea din 4 noiembrie. Decizia de arest preventiv de 30 de zile, luată la 5 noiembrie, confirmă că judecătorul a admis cererea procurorilor DIICOT pentru ambele cauze conexate aceluiași dosar, potrivit calendarului din comunicat.
+
 ## Prezumția de nevinovăție
 
 DIICOT reamintește că persoanele cercetate beneficiază de prezumția de nevinovăție și de toate garanțiile procesuale prevăzute de lege. Reținerea și arestarea preventivă sunt măsuri procesuale temporare; răspunderea penală se stabilește doar printr-o hotărâre judecătorească definitivă.
