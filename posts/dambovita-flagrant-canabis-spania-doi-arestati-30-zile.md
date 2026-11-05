@@ -39,6 +39,12 @@ La 5 noiembrie 2026, judecătorii de drepturi și libertăți de la Tribunalul D
 
 Comunicatul nu menționează alte persoane cercetate în același dosar și nici eventuale percheziții conexe. Cercetările continuă în cadrul procedurilor penale.
 
+## Ancheta în județul Dâmbovița
+
+Cazul este unul de trafic internațional și intern de droguri de risc, categorie pentru care DIICOT păstrează competența materială. SCCO Dâmbovița a participat la ambele flagranturi din Târgoviște, iar procurorii biroului teritorial au dispus reținerea după administrarea probatoriului din zilele anterioare.
+
+Comunicatul nu precizează dacă au fost ridicate și alte bunuri în afara canabisului din colete și nici dacă există alți suspecți în curs de identificare. Singurele date demografice făcute publice sunt vârstele de 28 și 48 de ani.
+
 ## Prezumția de nevinovăție
 
 DIICOT reamintește că persoanele cercetate beneficiază de prezumția de nevinovăție și de toate garanțiile procesuale prevăzute de lege. Reținerea și arestarea preventivă sunt măsuri procesuale temporare; răspunderea penală se stabilește doar printr-o hotărâre judecătorească definitivă.
