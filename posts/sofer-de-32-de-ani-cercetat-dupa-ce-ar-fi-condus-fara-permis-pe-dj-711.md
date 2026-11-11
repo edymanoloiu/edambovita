@@ -38,4 +38,3 @@ Bărbatul a ajuns să fie reținut pentru 24 de ore și prezentat magistraților
 ## Surse
 
 - https://db.politiaromana.ro/ro/stiri-si-media/stiri/barbat-retinut-pentru-comiterea-infractiunii-de-conducerea-unui-vehicul-fara-permis-de-conducere-si-conducerea-unui-vehicul-sub-influenta-alcoolului
-
