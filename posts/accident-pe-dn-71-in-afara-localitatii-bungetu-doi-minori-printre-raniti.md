@@ -38,4 +38,3 @@ Datele preliminare indică o coliziune între mașina unui bărbat de 73 de ani 
 ## Surse
 
 - https://db.politiaromana.ro/ro/stiri-si-media/stiri/accident-rutier-in-afara-localitatii-bungetu1794312538
-
