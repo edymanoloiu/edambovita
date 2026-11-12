@@ -18,6 +18,7 @@ author_bio: 'Radu Ioniță este jurnalist și analist local cu peste 20 de ani d
 tags:
 - Actualitate
 - Știri locale
+---
 
 
 ![Dâmbovița: cinci persoane, între care doi minori, rănite într-un accident pe DN 71 la Bungetu](/images/posts/bungetu-accident-cinci-raniti-edambovita-12-noiembrie-2026.webp)
