@@ -2,7 +2,7 @@
 postFormat: 'text'
 trending: true
 title: 'Două mașini parcate lovite în Valea Voievozilor; șoferul este cercetat pentru alcool'
-excerpt: 'Potrivit IPJ Dâmbovița, impactul a produs doar pagube materiale, însă testarea conducătorului auto a indicat 1,01 mg/l alcool pur în aerul expirat.'
+excerpt: 'Informarea oficială: Impactul a produs doar pagube materiale, însă testarea conducătorului auto a indicat 1,01 mg/l alcool pur în aerul expirat.'
 featureImg: /images/posts/buletin-politie-dambovita-20-noiembrie-edambovita-23-noiembrie-2026.webp
 thumb: /images/posts/buletin-politie-dambovita-20-noiembrie-edambovita-23-noiembrie-2026.webp
 date: Nov 23 2026
@@ -21,15 +21,11 @@ tags:
 
 # Două mașini parcate lovite în Valea Voievozilor; șoferul este cercetat pentru alcool
 
-Potrivit IPJ Dâmbovița, impactul a produs doar pagube materiale, însă testarea conducătorului auto a indicat 1,01 mg/l alcool pur în aerul expirat. Potrivit IPJ Dâmbovița, potrivit verificărilor preliminare, un șofer de 30 de ani ar fi pierdut controlul direcției și ar fi lovit două autoturisme parcate în afara carosabilului.
+Potrivit verificărilor preliminare, un șofer de 30 de ani ar fi pierdut controlul direcției și ar fi lovit două autoturisme parcate în afara carosabilului. IPJ Dâmbovița precizează totodată că accidentul s-a produs la 18 noiembrie, în jurul orei 21:50, pe strada Tudor Vladimirescu din Valea Voievozilor.
 
 ## Cum este descrisă situația
 
-Accidentul s-a produs la 18 noiembrie, în jurul orei 21:50, pe strada Tudor Vladimirescu din Valea Voievozilor. Comunicatul mai consemnează că etilotestul a indicat 1,01 mg/l alcool pur în aerul expirat; șoferul a fost dus la spital pentru probe biologice, iar polițiștii au deschis dosar penal, cu respectarea prezumției de nevinovăție.
-
-## Alte detalii confirmate
-
-Nicio persoană nu a fost rănită, iar evenimentul s-a soldat exclusiv cu pagube materiale.
+Etilotestul a indicat 1,01 mg/l alcool pur în aerul expirat; șoferul a fost dus la spital pentru probe biologice, iar polițiștii au deschis dosar penal, cu respectarea prezumției de nevinovăție. Comunicatul mai consemnează că nicio persoană nu a fost rănită, iar evenimentul s-a soldat exclusiv cu pagube materiale.
 
 ## Surse
 
