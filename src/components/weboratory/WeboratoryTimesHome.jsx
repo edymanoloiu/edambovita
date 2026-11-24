@@ -3,6 +3,7 @@ import { getPostHref } from "../../../lib/articleRoutes";
 import {
 	ensureActivePromosOnHomepage,
 	getActivePromos,
+	mergePostsUnique,
 	sortPostsByDate,
 	takeUniquePosts,
 } from "../../../lib/homepagePosts";
@@ -75,9 +76,18 @@ const WeboratoryTimesHome = ({ localPosts, culturePosts, nationalPosts, sitemaps
 	const evenimente = sortPostsByDate(
 		culturePosts.filter((p) => p.cate === "Evenimente si cultura"),
 	);
-	const activePromos = getActivePromos(localCity);
+	const homepageFeed = sortPostsByDate(
+		mergePostsUnique(localCity, evenimente),
+	);
+	const activePromos = getActivePromos(homepageFeed);
 	const usedSlugs = new Set();
 	const promoPriority = () => activePromos.filter((p) => !usedSlugs.has(p.slug));
+
+	let heroPost = takeUniquePosts(homepageFeed, 1, usedSlugs, promoPriority())[0];
+	let headlinePosts = takeUniquePosts(homepageFeed, 6, usedSlugs, promoPriority());
+	let quickHeadlines = takeUniquePosts(homepageFeed, 4, usedSlugs, promoPriority());
+	let latestGrid = takeUniquePosts(homepageFeed, 8, usedSlugs, promoPriority());
+	let sidebarPosts = takeUniquePosts(homepageFeed, 5, usedSlugs, promoPriority());
 
 	const localHomePool =
 		localCategoryPosts.length > 0 ? localCategoryPosts : localCity;
@@ -89,12 +99,6 @@ const WeboratoryTimesHome = ({ localPosts, culturePosts, nationalPosts, sitemaps
 	);
 	let localFeatured = localHomePosts[0];
 	let localList = localHomePosts.slice(1);
-
-	let heroPost = takeUniquePosts(localCity, 1, usedSlugs, promoPriority())[0];
-	let headlinePosts = takeUniquePosts(localCity, 6, usedSlugs, promoPriority());
-	let quickHeadlines = takeUniquePosts(localCity, 4, usedSlugs, promoPriority());
-	let latestGrid = takeUniquePosts(localCity, 8, usedSlugs, promoPriority());
-	let sidebarPosts = takeUniquePosts(localCity, 5, usedSlugs, promoPriority());
 
 	const evenimenteStories = evenimente.filter((p) => p.story === true);
 	const evenimentePool = evenimenteStories.length > 0 ? evenimenteStories : evenimente;
