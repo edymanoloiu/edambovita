@@ -9,7 +9,7 @@
             <link>https://edambovita.ro</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Nov 2026 10:09:43 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 15:19:47 GMT</lastBuildDate>
         <atom:link href="https://edambovita.ro/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[ro]]></language>
         <item>
@@ -30,6 +30,15 @@
             <category><![CDATA[Horoscop]]></category>
             <pubDate>Thu, 26 Nov 2026 22:00:00 GMT</pubDate>
             <enclosure url="https://images.unsplash.com/photo-1614089254151-676cc373b01e" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cum au exersat elevii din Târgoviște evacuarea după un seism]]></title>
+            <description><![CDATA[La Școala „Ioan Alexandru Brătescu-Voinești” a avut loc un exercițiu de protecție și evacuare, potrivit ISU Dâmbovița.]]></description>
+            <link>https://edambovita.ro/post/simulare-evacuare-seism-scoala-targoviste-2026</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/simulare-evacuare-seism-scoala-targoviste-2026</guid>
+            <category><![CDATA[Evenimente si cultura]]></category>
+            <pubDate>Thu, 26 Nov 2026 22:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/simulare-evacuare-seism-scoala-targoviste-2026.webp" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Pompierii dâmbovițeni prezintă tehnica de intervenție de Ziua Națională]]></title>
@@ -191,16 +200,6 @@
             <description><![CDATA[Horoscop zilnic – 23 noiembrie 2026 Berbec General: Interpretare astrologică: azi există o tensiune practică între ritmul dorit și termenele reale; prioritizarea clară ajută. Nu face presupuneri despre rezultate; verifică faptele înainte de a continua un proiect. Abordarea directă funcționează, dar cere răbdare la detalii. Dragoste: Comunicarea este esențială; un ton deschis reduce neînțelegerile. Dacă]]></description>
             <link>https://edambovita.ro/post/ce-spun-astrele-azi-horoscopul-zilei-pentru-toate-zodiile-23-noiembrie-2026</link>
             <guid isPermaLink="true">https://edambovita.ro/post/ce-spun-astrele-azi-horoscopul-zilei-pentru-toate-zodiile-23-noiembrie-2026</guid>
-            <category><![CDATA[Azi in Targoviste]]></category>
-            <category><![CDATA[Horoscop]]></category>
-            <pubDate>Sun, 22 Nov 2026 22:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1614089254151-676cc373b01e" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Horoscop azi – previziuni zilnice pentru toate zodiile – 23 noiembrie 2026]]></title>
-            <description><![CDATA[Horoscop zilnic – 23 noiembrie 2026 Berbec General: Ziua de 23 noiembrie invită la clarificări: prioritățile se limpezesc atunci când separați reacțiile imediate de necesitățile pe termen lung. Observație: impulsurile de a lua decizii rapide rămân puternice; estimare: o pauză scurtă înainte de acțiune reduce riscul unor regrete. Dragoste: Relațiile pot cere sinceritate pragmatică. Dacă]]></description>
-            <link>https://edambovita.ro/post/horoscop-azi-previziuni-zilnice-pentru-toate-zodiile-23-noiembrie-2026</link>
-            <guid isPermaLink="true">https://edambovita.ro/post/horoscop-azi-previziuni-zilnice-pentru-toate-zodiile-23-noiembrie-2026</guid>
             <category><![CDATA[Azi in Targoviste]]></category>
             <category><![CDATA[Horoscop]]></category>
             <pubDate>Sun, 22 Nov 2026 22:00:00 GMT</pubDate>
