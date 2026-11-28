@@ -9,9 +9,19 @@
             <link>https://edambovita.ro</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 28 Nov 2026 08:31:34 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Nov 2026 08:58:53 GMT</lastBuildDate>
         <atom:link href="https://edambovita.ro/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[ro]]></language>
+        <item>
+            <title><![CDATA[Târgoviște și județul Dâmbovița, sub cod galben: vânt puternic în weekend]]></title>
+            <description><![CDATA[În Târgoviște și județul Dâmbovița, avertizarea emisă la 28 noiembrie indică rafale de 50–70 km/h. Vezi orele și zona afectată.]]></description>
+            <link>https://edambovita.ro/post/anm-cod-galben-28-29-noiembrie-2026-edambovita</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/anm-cod-galben-28-29-noiembrie-2026-edambovita</guid>
+            <category><![CDATA[Azi in Targoviste]]></category>
+            <category><![CDATA[Cultura]]></category>
+            <pubDate>Fri, 27 Nov 2026 22:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/anm-cod-galben-28-29-noiembrie-2026-edambovita.webp" length="0" type="image/jpeg"/>
+        </item>
         <item>
             <title><![CDATA[Evenimentele din Dâmbovița pe 28 noiembrie 2026]]></title>
             <description><![CDATA[Pe 28 noiembrie 2026, județul Dâmbovița a fost afectat de fenomene meteorologice severe, incidente deosebite și vești pozitive în domeniul infrastructurii și educației. Detalii despre evenimentele cheie din zonă.]]></description>
@@ -192,16 +202,6 @@
             <category><![CDATA[Horoscop]]></category>
             <pubDate>Mon, 23 Nov 2026 22:00:00 GMT</pubDate>
             <enclosure url="https://images.unsplash.com/photo-1614089254151-676cc373b01e" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Cod galben de vânt și ninsori viscolite — județul Dâmbovița pe harta ANM]]></title>
-            <description><![CDATA[Datele oficiale pentru cititorii locali: avertizarea emisă pe 24 noiembrie este valabilă în două intervale; harta oficială include județul Dâmbovița.]]></description>
-            <link>https://edambovita.ro/post/cod-galben-anm-24-noiembrie-db-edambovita-24-noiembrie-2026</link>
-            <guid isPermaLink="true">https://edambovita.ro/post/cod-galben-anm-24-noiembrie-db-edambovita-24-noiembrie-2026</guid>
-            <category><![CDATA[Azi in Targoviste]]></category>
-            <category><![CDATA[Horoscop]]></category>
-            <pubDate>Mon, 23 Nov 2026 22:00:00 GMT</pubDate>
-            <enclosure url="/images/posts/cod-galben-anm-24-noiembrie-db-edambovita-24-noiembrie-2026.webp" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>
