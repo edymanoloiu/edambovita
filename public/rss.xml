@@ -9,7 +9,7 @@
             <link>https://edambovita.ro</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 27 Nov 2026 15:19:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 17:01:17 GMT</lastBuildDate>
         <atom:link href="https://edambovita.ro/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[ro]]></language>
         <item>
@@ -20,6 +20,15 @@
             <category><![CDATA[Evenimente si cultura]]></category>
             <pubDate>Thu, 26 Nov 2026 22:00:00 GMT</pubDate>
             <enclosure url="https://upload.wikimedia.org/wikipedia/commons/5/5b/Targoviste_city_hall_2.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Cod galben de vânt în Dâmbovița pentru aproape tot weekendul]]></title>
+            <description><![CDATA[Sunt anunțate două etape succesive, de la 28 noiembrie, ora 02:00, până pe 29 noiembrie, ora 10:00.]]></description>
+            <link>https://edambovita.ro/post/anm-dambovita-vant-rafale-28-noiembrie-2026</link>
+            <guid isPermaLink="true">https://edambovita.ro/post/anm-dambovita-vant-rafale-28-noiembrie-2026</guid>
+            <category><![CDATA[Evenimente si cultura]]></category>
+            <pubDate>Thu, 26 Nov 2026 22:00:00 GMT</pubDate>
+            <enclosure url="/images/posts/anm-dambovita-vant-rafale-28-noiembrie-2026.webp" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[Horoscop azi pentru zodia ta – previziuni actualizate zilnic – 27 noiembrie 2026]]></title>
@@ -194,16 +203,6 @@
             <category><![CDATA[Știri locale]]></category>
             <pubDate>Sun, 22 Nov 2026 22:00:00 GMT</pubDate>
             <enclosure url="/images/posts/buletin-politie-dambovita-20-noiembrie-edambovita-23-noiembrie-2026.webp" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[Ce spun astrele azi? Horoscopul zilei pentru toate zodiile – 23 noiembrie 2026]]></title>
-            <description><![CDATA[Horoscop zilnic – 23 noiembrie 2026 Berbec General: Interpretare astrologică: azi există o tensiune practică între ritmul dorit și termenele reale; prioritizarea clară ajută. Nu face presupuneri despre rezultate; verifică faptele înainte de a continua un proiect. Abordarea directă funcționează, dar cere răbdare la detalii. Dragoste: Comunicarea este esențială; un ton deschis reduce neînțelegerile. Dacă]]></description>
-            <link>https://edambovita.ro/post/ce-spun-astrele-azi-horoscopul-zilei-pentru-toate-zodiile-23-noiembrie-2026</link>
-            <guid isPermaLink="true">https://edambovita.ro/post/ce-spun-astrele-azi-horoscopul-zilei-pentru-toate-zodiile-23-noiembrie-2026</guid>
-            <category><![CDATA[Azi in Targoviste]]></category>
-            <category><![CDATA[Horoscop]]></category>
-            <pubDate>Sun, 22 Nov 2026 22:00:00 GMT</pubDate>
-            <enclosure url="https://images.unsplash.com/photo-1614089254151-676cc373b01e" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>
